@@ -10,11 +10,3 @@ def index(request):
 
 
 
-# def asdm(request):
-#     x = int(request.GET['num1'])
-#     y = int(request.GET['num2'])
-#     addn= x+y
-#     subn = x-y
-#     muln = x*y
-#     divn = x/y
-#     return render(request,'result.html',{'add':addn,'sub':subn,'multiply':muln,'division':divn})
